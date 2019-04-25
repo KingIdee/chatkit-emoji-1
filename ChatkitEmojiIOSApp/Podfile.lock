@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BeamsChatkit (1.2.4)
+  - CryptoSwift (0.9.0)
+  - PusherChatkit (1.4.4):
+    - BeamsChatkit (~> 1.2)
+    - PusherPlatform (~> 0.7.1)
+  - PusherPlatform (0.7.1)
+  - PusherSwift (6.1.0):
+    - CryptoSwift (~> 0.9.0)
+    - ReachabilitySwift (~> 4.1.0)
+    - Starscream (~> 3.0.5)
+    - TaskQueue (~> 1.1.1)
+  - ReachabilitySwift (4.1.0)
+  - Starscream (3.0.6)
+  - TaskQueue (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - PusherChatkit
+  - PusherSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BeamsChatkit
+    - CryptoSwift
+    - PusherChatkit
+    - PusherPlatform
+    - PusherSwift
+    - ReachabilitySwift
+    - Starscream
+    - TaskQueue
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BeamsChatkit: 8d6da00ded34ee11116e9e38427a20e04301d796
+  CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
+  PusherChatkit: 787c9e2911624a1b949f335a3aeac4decaeb4698
+  PusherPlatform: 243a8c0b018663831eafc8bef39fa196257de1f2
+  PusherSwift: 6f2535d616cf0d6867a58bee501999995ad37999
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  TaskQueue: 53a3cdaf817d9ce3cd50837ff6610aeb7b968997
+
+PODFILE CHECKSUM: 5b607a4492a1496fbbfdcac642e71e45034049ee
+
+COCOAPODS: 1.5.3

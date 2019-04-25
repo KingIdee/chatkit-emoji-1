@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="20dp"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextUsername"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Neo"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextMessage"
+            app:layout_constraintTop_toBottomOf="@id/editTextUsername"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Hey there!"
+            android:textSize="16sp"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="0dp"
+            android:id="@+id/emojiRecyclerView"
+            app:layout_constraintTop_toBottomOf="@id/editTextMessage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout>

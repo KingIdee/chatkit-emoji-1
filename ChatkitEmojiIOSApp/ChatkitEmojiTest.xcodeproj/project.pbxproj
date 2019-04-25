@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1CA3120F22ADABE46E2D7A0 /* Pods_ChatkitEmojiTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E3BED3C6DAF1080A97DB87 /* Pods_ChatkitEmojiTest.framework */; };
+		BAEDCED22259383E00C94C9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCED12259383E00C94C9C /* AppDelegate.swift */; };
+		BAEDCED42259383E00C94C9C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCED32259383E00C94C9C /* LoginViewController.swift */; };
+		BAEDCED72259383E00C94C9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEDCED52259383E00C94C9C /* Main.storyboard */; };
+		BAEDCED92259384100C94C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEDCED82259384100C94C9C /* Assets.xcassets */; };
+		BAEDCEDC2259384100C94C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEDCEDA2259384100C94C9C /* LaunchScreen.storyboard */; };
+		BAEDCEE42259943700C94C9C /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCEE32259943700C94C9C /* ChatRoomViewController.swift */; };
+		BAEDCEE622599ACF00C94C9C /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCEE522599ACF00C94C9C /* MessageModel.swift */; };
+		BAEDCEE822599C5B00C94C9C /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCEE722599C5B00C94C9C /* MessageCell.swift */; };
+		BAEDCEEA225AFDAD00C94C9C /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCEE9225AFDAD00C94C9C /* EmojiCell.swift */; };
+		BAEDCEEC225B01DF00C94C9C /* EmojiListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCEEB225B01DF00C94C9C /* EmojiListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CD93F0D32E16EC8B37020A0 /* Pods-ChatkitEmojiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatkitEmojiTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatkitEmojiTest/Pods-ChatkitEmojiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		78E3BED3C6DAF1080A97DB87 /* Pods_ChatkitEmojiTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatkitEmojiTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEDCECE2259383E00C94C9C /* ChatkitEmojiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatkitEmojiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEDCED12259383E00C94C9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAEDCED32259383E00C94C9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BAEDCED62259383E00C94C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAEDCED82259384100C94C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAEDCEDB2259384100C94C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAEDCEDD2259384100C94C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEDCEE32259943700C94C9C /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		BAEDCEE522599ACF00C94C9C /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		BAEDCEE722599C5B00C94C9C /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		BAEDCEE9225AFDAD00C94C9C /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
+		BAEDCEEB225B01DF00C94C9C /* EmojiListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiListViewController.swift; sourceTree = "<group>"; };
+		E65F89A15E9E2C89C4EC5429 /* Pods-ChatkitEmojiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatkitEmojiTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatkitEmojiTest/Pods-ChatkitEmojiTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEDCECB2259383E00C94C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CA3120F22ADABE46E2D7A0 /* Pods_ChatkitEmojiTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4FA5321F999F0EE6055890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E3BED3C6DAF1080A97DB87 /* Pods_ChatkitEmojiTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EE0B5DFD1A51A33FA5D44F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CD93F0D32E16EC8B37020A0 /* Pods-ChatkitEmojiTest.debug.xcconfig */,
+				E65F89A15E9E2C89C4EC5429 /* Pods-ChatkitEmojiTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAEDCEC52259383E00C94C9C = {
+			isa = PBXGroup;
+			children = (
+				BAEDCED02259383E00C94C9C /* ChatkitEmojiTest */,
+				BAEDCECF2259383E00C94C9C /* Products */,
+				2EE0B5DFD1A51A33FA5D44F7 /* Pods */,
+				2E4FA5321F999F0EE6055890 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEDCECF2259383E00C94C9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDCECE2259383E00C94C9C /* ChatkitEmojiTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEDCED02259383E00C94C9C /* ChatkitEmojiTest */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDCED12259383E00C94C9C /* AppDelegate.swift */,
+				BAEDCEE522599ACF00C94C9C /* MessageModel.swift */,
+				BAEDCEE9225AFDAD00C94C9C /* EmojiCell.swift */,
+				BAEDCED32259383E00C94C9C /* LoginViewController.swift */,
+				BAEDCEE32259943700C94C9C /* ChatRoomViewController.swift */,
+				BAEDCED52259383E00C94C9C /* Main.storyboard */,
+				BAEDCEEB225B01DF00C94C9C /* EmojiListViewController.swift */,
+				BAEDCEE722599C5B00C94C9C /* MessageCell.swift */,
+				BAEDCED82259384100C94C9C /* Assets.xcassets */,
+				BAEDCEDA2259384100C94C9C /* LaunchScreen.storyboard */,
+				BAEDCEDD2259384100C94C9C /* Info.plist */,
+			);
+			path = ChatkitEmojiTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEDCECD2259383E00C94C9C /* ChatkitEmojiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEDCEE02259384100C94C9C /* Build configuration list for PBXNativeTarget "ChatkitEmojiTest" */;
+			buildPhases = (
+				93563F28639C83CC52882139 /* [CP] Check Pods Manifest.lock */,
+				BAEDCECA2259383E00C94C9C /* Sources */,
+				BAEDCECB2259383E00C94C9C /* Frameworks */,
+				BAEDCECC2259383E00C94C9C /* Resources */,
+				F89469DE8630B560D20F674F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatkitEmojiTest;
+			productName = ChatkitEmojiTest;
+			productReference = BAEDCECE2259383E00C94C9C /* ChatkitEmojiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEDCEC62259383E00C94C9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = neo;
+				TargetAttributes = {
+					BAEDCECD2259383E00C94C9C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = BAEDCEC92259383E00C94C9C /* Build configuration list for PBXProject "ChatkitEmojiTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAEDCEC52259383E00C94C9C;
+			productRefGroup = BAEDCECF2259383E00C94C9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEDCECD2259383E00C94C9C /* ChatkitEmojiTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEDCECC2259383E00C94C9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEDCEDC2259384100C94C9C /* LaunchScreen.storyboard in Resources */,
+				BAEDCED92259384100C94C9C /* Assets.xcassets in Resources */,
+				BAEDCED72259383E00C94C9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93563F28639C83CC52882139 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatkitEmojiTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F89469DE8630B560D20F674F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChatkitEmojiTest/Pods-ChatkitEmojiTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BeamsChatkit/BeamsChatkit.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherChatkit/PusherChatkit.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherPlatform/PusherPlatform.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/TaskQueue/TaskQueue.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BeamsChatkit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherChatkit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherPlatform.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TaskQueue.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatkitEmojiTest/Pods-ChatkitEmojiTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEDCECA2259383E00C94C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEDCEEC225B01DF00C94C9C /* EmojiListViewController.swift in Sources */,
+				BAEDCEEA225AFDAD00C94C9C /* EmojiCell.swift in Sources */,
+				BAEDCED42259383E00C94C9C /* LoginViewController.swift in Sources */,
+				BAEDCEE822599C5B00C94C9C /* MessageCell.swift in Sources */,
+				BAEDCED22259383E00C94C9C /* AppDelegate.swift in Sources */,
+				BAEDCEE42259943700C94C9C /* ChatRoomViewController.swift in Sources */,
+				BAEDCEE622599ACF00C94C9C /* MessageModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAEDCED52259383E00C94C9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEDCED62259383E00C94C9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAEDCEDA2259384100C94C9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEDCEDB2259384100C94C9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAEDCEDE2259384100C94C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAEDCEDF2259384100C94C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAEDCEE12259384100C94C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD93F0D32E16EC8B37020A0 /* Pods-ChatkitEmojiTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatkitEmojiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ChatkitEmojiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAEDCEE22259384100C94C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65F89A15E9E2C89C4EC5429 /* Pods-ChatkitEmojiTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatkitEmojiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ChatkitEmojiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEDCEC92259383E00C94C9C /* Build configuration list for PBXProject "ChatkitEmojiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDCEDE2259384100C94C9C /* Debug */,
+				BAEDCEDF2259384100C94C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEDCEE02259384100C94C9C /* Build configuration list for PBXNativeTarget "ChatkitEmojiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDCEE12259384100C94C9C /* Debug */,
+				BAEDCEE22259384100C94C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAEDCEC62259383E00C94C9C /* Project object */;
+}
