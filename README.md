@@ -1,6 +1,11 @@
 # Chat App
 An app that shows how to add emoji reactions in realtime to messages in a chat room.
 
+- https://pusher.com/tutorials/chat-app-emoji-reactions-part-1
+- https://pusher.com/tutorials/chat-app-emoji-reactions-part-2
+- https://pusher.com/tutorials/chat-app-emoji-reactions-part-3
+
+
 ## Getting Started
 
 Clone the repository. The repository contains a `chatkit-emoji-backend` for the server, a `ChatkitEmojiIOSApp` folder for the iOS app, and a `ChatkitEmojiAndroidApp` folder for the Android app.
